@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.company{
+  display: flex;
+  height: 100vh;
+}
+
+.people{
+  background-color: rgb(32, 32, 53);
+  width: 600px;
+  padding-left: 20px;
+  
+}
+
+.people h1{
+  margin-top: 80px;
+  padding: 1px 65px;
+  font-size: 35px;
+  color:white;
+}
+
+.people img{
+  width: 400px;
+  height: 380px;
+margin-left: 10px;
+ border-radius: 50%;
+  border: none;
+}
+
+
+.profile{
+  background-color: rgb(7, 7, 24);
+padding-left: 80px;
+width: 70%;
+
+
+}
+.text h3 {
+ color: rgb(219, 206, 206);
+ margin-top: 130px;
+ font-size: 40px;
+ font-weight: bold;
+}
+
+.text p{
+  color: rgb(114, 107, 107);
+  margin-top: 10px;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.box1 h1{
+  width: 90px;
+  height: 80px;
+  background-color: rgb(32, 32, 53);
+  border-radius: 5px;
+}
+
+.box2{
+  margin-top: 20px;
+ 
+}
+.side h3{
+  font-size: 11px;
+  color: gray;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.side button{
+  width: 80px;
+  height: 30px;
+  background-color: rgb(65, 65, 236);
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+
+.desc{
+  margin-top: 50px ;
+}
+
+.desc h5{
+  color: rgb(167, 160, 160);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.desc  input{
+  width: 580px;
+ padding-left: 20px;
+ height: 40px;
+ background-color: rgb(23, 23, 37);
+ border: 1px solid rgb(67, 67, 238);
+ border-radius: 5px;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.next button{
+  margin-top: 40px;
+  height: 45px;
+  width: 90px;
+  background-color: rgb(67, 67, 238);
+  border: none;
+  color: rgb(167, 161, 161);
+  border-radius: 5px;
+}
